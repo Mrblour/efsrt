@@ -1,0 +1,74 @@
+/* ===== FIX PARA ICONOS BOOTSTRAP Y FONTAWESOME ===== */
+/* Archivo dedicado a restaurar todos los iconos */
+
+/* ===== BOOTSTRAP ICONS ===== */
+/* Asegurar que Bootstrap Icons funcionen */
+.bi, [class^="bi-"], [class*=" bi-"] {
+    font-family: "bootstrap-icons" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    vertical-align: -.125em !important;
+    display: inline-block !important;
+}
+
+/* ===== FONTAWESOME ICONS ===== */
+/* Restaurar iconos FontAwesome básicos */
+.fas, .far, .fab, .fal, .fa {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    display: inline-block !important;
+}
+
+.far {
+    font-weight: 400 !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+    font-weight: 400 !important;
+}
+
+/* Asegurar que los iconos se muestren */
+i[class*="fa-"], 
+i.fas, i.far, i.fab, i.fal, i.fa,
+i[class*="bi-"], i.bi {
+    display: inline-block !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    line-height: 1 !important;
+}
+
+/* Iconos en elementos específicos */
+.btn i, 
+.card i, 
+.alert i, 
+.badge i,
+.nav-link i,
+.breadcrumb i {
+    display: inline-block !important;
+    font-style: normal !important;
+}
+
+/* Específico para botones */
+.btn .bi, .btn [class^="bi-"], .btn [class*=" bi-"] {
+    font-family: "bootstrap-icons" !important;
+}
+
+.btn .fas, .btn .far, .btn .fab, .btn .fa {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+.btn .far {
+    font-weight: 400 !important;
+}
+
+.btn .fab {
+    font-family: "Font Awesome 5 Brands" !important;
+    font-weight: 400 !important;
+}
